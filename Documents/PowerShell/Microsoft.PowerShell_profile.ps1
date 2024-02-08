@@ -36,5 +36,3 @@ function Start-WTA {
 
 # Clear Screen
 Clear-Host
-
-# Test
