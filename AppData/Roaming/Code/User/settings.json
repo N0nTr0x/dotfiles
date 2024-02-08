@@ -1,0 +1,38 @@
+{
+  "better-comments.highlightPlainText": true,
+  "redhat.telemetry.enabled": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.tabCompletion": "on",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[powershell]": {
+    "editor.defaultFormatter": "ms-vscode.powershell"
+  },
+  "RainbowBrackets.depreciation-notice": false,
+  "cSpell.language": "en,de-de",
+  "git.autofetch": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "cSpell.userWords": [
+    "ansible",
+    "pwsh",
+    "Readline",
+    "USERPROFILE",
+    "winget",
+    "Winget"
+  ],
+  "workbench.startupEditor": "none",
+  "settingsSync.ignoredSettings": ["-python.defaultInterpreterPath"],
+  "editor.renderWhitespace": "all",
+  "ansible.lightspeed.enabled": true,
+  "ansible.lightspeed.suggestions.enabled": true,
+  "git.confirmSync": false,
+  "git.openRepositoryInParentFolders": "always",
+  "editor.fontFamily": "'Monaspace Neon', monospace",
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+  "files.autoSave": "afterDelay",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "cSpell.enabled": true,
+  "workbench.colorTheme": "Ayu Mirage Bordered"
+}
