@@ -20,17 +20,26 @@ Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 
 # ------------------------------------------------------------
 
-# Aliase festlegen
-Set-Alias -Name ping -Value Test-Connection
-Set-Alias -Name wta -Value Start-WTA
-Set-Alias -Name dns -Value Resolve-DnsName
-
-# ------------------------------------------------------------
-
 # Funktionen definieren
 function Start-WTA {
     Start-Process -FilePath wt.exe -verb RunAs
 }
+
+function Use-Winget {
+    param(
+        [string]$PackageName
+    )
+    winget install $PackageName -s winget
+}
+
+
+# ------------------------------------------------------------
+
+# Aliase festlegen
+Set-Alias -Name ping -Value Test-Connection
+Set-Alias -Name wta -Value Start-WTA
+Set-Alias -Name dns -Value Resolve-DnsName
+Set-Alias -Name wp -Value Use-Winget
 
 # ------------------------------------------------------------
 
