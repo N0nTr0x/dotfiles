@@ -34,5 +34,7 @@
   "workbench.iconTheme": "vscode-icons",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "cSpell.enabled": true,
-  "workbench.colorTheme": "Ayu Mirage Bordered"
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "diffEditor.maxComputationTime": 0
 }
