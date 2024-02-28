@@ -1,0 +1,13 @@
+packages:
+  debian: # Define a section for Debian packages
+    apt: # Specify apt as the package manager to download nala
+      - "nala" # Install nala using apt
+    nala: # Specify nala as the package manager for other packages
+      - "zsh"
+      - "tldr"
+      - "ohmyzsh"
+      - "starship"
+      - "eza"
+      - "bat"
+      - "zoxide"
+      - "fzf"
