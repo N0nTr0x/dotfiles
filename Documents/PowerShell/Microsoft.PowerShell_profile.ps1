@@ -40,6 +40,7 @@ Set-Alias -Name ping -Value Test-Connection
 Set-Alias -Name wta -Value Start-WTA
 Set-Alias -Name dns -Value Resolve-DnsName
 Set-Alias -Name wp -Value Use-Winget
+Set-Alias -Name wg -Value winget
 
 # ------------------------------------------------------------
 
@@ -308,5 +309,5 @@ Clear-Host
 # See https://ch0.co/tab-completion for details.
 $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
 if (Test-Path($ChocolateyProfile)) {
-  Import-Module "$ChocolateyProfile"
+    Import-Module "$ChocolateyProfile"
 }
