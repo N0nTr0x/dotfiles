@@ -40,6 +40,7 @@ Set-Alias -Name ping -Value Test-Connection
 Set-Alias -Name wta -Value Start-WTA
 Set-Alias -Name dns -Value Resolve-DnsName
 Set-Alias -Name wp -Value Use-Winget
+Set-Alias -Name wg -Value winget
 
 # ------------------------------------------------------------
 
