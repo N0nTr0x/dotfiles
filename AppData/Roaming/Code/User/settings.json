@@ -36,13 +36,13 @@
   "ansible.lightspeed.suggestions.enabled": true,
   "git.confirmSync": false,
   "git.openRepositoryInParentFolders": "always",
-  "editor.fontFamily": "'Monaspace Neon', monospace",
-  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
   "files.autoSave": "afterDelay",
   "workbench.iconTheme": "vscode-icons",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "cSpell.enabled": true,
   "workbench.colorTheme": "Ayu Mirage Bordered",
   "diffEditor.hideUnchangedRegions.enabled": true,
-  "diffEditor.maxComputationTime": 0
+  "diffEditor.maxComputationTime": 300
 }
